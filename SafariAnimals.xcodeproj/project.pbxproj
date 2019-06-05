@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		57F12AA822A6B486006F8AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F12AA722A6B486006F8AFD /* AppDelegate.swift */; };
 		57F12AAA22A6B486006F8AFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F12AA922A6B486006F8AFD /* SceneDelegate.swift */; };
-		57F12AAC22A6B486006F8AFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F12AAB22A6B486006F8AFD /* ContentView.swift */; };
+		57F12AAC22A6B486006F8AFD /* AnimalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F12AAB22A6B486006F8AFD /* AnimalList.swift */; };
 		57F12AAE22A6B488006F8AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F12AAD22A6B488006F8AFD /* Assets.xcassets */; };
 		57F12AB122A6B488006F8AFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F12AB022A6B488006F8AFD /* Preview Assets.xcassets */; };
 		57F12AB422A6B488006F8AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F12AB222A6B488006F8AFD /* LaunchScreen.storyboard */; };
+		57F12ABE22A6B5C9006F8AFD /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F12ABD22A6B5C9006F8AFD /* Animal.swift */; };
+		57F12AC122A6B614006F8AFD /* AnimalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F12AC022A6B614006F8AFD /* AnimalDetail.swift */; };
+		57F12AC322A6B622006F8AFD /* AnimalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F12AC222A6B622006F8AFD /* AnimalRow.swift */; };
+		57F12AC822A6B6A0006F8AFD /* Animal+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F12AC722A6B6A0006F8AFD /* Animal+Constants.swift */; };
+		57F12ACA22A6BAD7006F8AFD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F12AC922A6BAD7006F8AFD /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57F12AA422A6B486006F8AFD /* SafariAnimals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariAnimals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F12AA722A6B486006F8AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57F12AA922A6B486006F8AFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		57F12AAB22A6B486006F8AFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		57F12AAB22A6B486006F8AFD /* AnimalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalList.swift; sourceTree = "<group>"; };
 		57F12AAD22A6B488006F8AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57F12AB022A6B488006F8AFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57F12AB322A6B488006F8AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57F12AB522A6B488006F8AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F12ABD22A6B5C9006F8AFD /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		57F12AC022A6B614006F8AFD /* AnimalDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetail.swift; sourceTree = "<group>"; };
+		57F12AC222A6B622006F8AFD /* AnimalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalRow.swift; sourceTree = "<group>"; };
+		57F12AC722A6B6A0006F8AFD /* Animal+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animal+Constants.swift"; sourceTree = "<group>"; };
+		57F12AC922A6BAD7006F8AFD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57C6D95922A7ADCC00275C73 /* Supporting View */ = {
+			isa = PBXGroup;
+			children = (
+				57F12AC922A6BAD7006F8AFD /* CircleImage.swift */,
+			);
+			path = "Supporting View";
+			sourceTree = "<group>";
+		};
 		57F12A9B22A6B486006F8AFD = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +74,8 @@
 		57F12AA622A6B486006F8AFD /* SafariAnimals */ = {
 			isa = PBXGroup;
 			children = (
-				57F12AA722A6B486006F8AFD /* AppDelegate.swift */,
-				57F12AA922A6B486006F8AFD /* SceneDelegate.swift */,
-				57F12AAB22A6B486006F8AFD /* ContentView.swift */,
-				57F12AAD22A6B488006F8AFD /* Assets.xcassets */,
-				57F12AB222A6B488006F8AFD /* LaunchScreen.storyboard */,
-				57F12AB522A6B488006F8AFD /* Info.plist */,
+				57F12AC522A6B65D006F8AFD /* Source */,
+				57F12AC422A6B658006F8AFD /* Resources */,
 				57F12AAF22A6B488006F8AFD /* Preview Content */,
 			);
 			path = SafariAnimals;
@@ -73,6 +87,55 @@
 				57F12AB022A6B488006F8AFD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57F12ABC22A6B5C1006F8AFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57F12ABD22A6B5C9006F8AFD /* Animal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57F12ABF22A6B60B006F8AFD /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				57F12AC022A6B614006F8AFD /* AnimalDetail.swift */,
+				57F12AAB22A6B486006F8AFD /* AnimalList.swift */,
+				57F12AC222A6B622006F8AFD /* AnimalRow.swift */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
+		57F12AC422A6B658006F8AFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				57F12AC622A6B697006F8AFD /* Constants */,
+				57F12AAD22A6B488006F8AFD /* Assets.xcassets */,
+				57F12AB522A6B488006F8AFD /* Info.plist */,
+				57F12AB222A6B488006F8AFD /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		57F12AC522A6B65D006F8AFD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				57F12AA722A6B486006F8AFD /* AppDelegate.swift */,
+				57F12AA922A6B486006F8AFD /* SceneDelegate.swift */,
+				57F12ABF22A6B60B006F8AFD /* Main View */,
+				57F12ABC22A6B5C1006F8AFD /* Model */,
+				57C6D95922A7ADCC00275C73 /* Supporting View */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		57F12AC622A6B697006F8AFD /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				57F12AC722A6B6A0006F8AFD /* Animal+Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +210,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				57F12AA822A6B486006F8AFD /* AppDelegate.swift in Sources */,
+				57F12ACA22A6BAD7006F8AFD /* CircleImage.swift in Sources */,
+				57F12ABE22A6B5C9006F8AFD /* Animal.swift in Sources */,
+				57F12AC122A6B614006F8AFD /* AnimalDetail.swift in Sources */,
 				57F12AAA22A6B486006F8AFD /* SceneDelegate.swift in Sources */,
-				57F12AAC22A6B486006F8AFD /* ContentView.swift in Sources */,
+				57F12AC822A6B6A0006F8AFD /* Animal+Constants.swift in Sources */,
+				57F12AC322A6B622006F8AFD /* AnimalRow.swift in Sources */,
+				57F12AAC22A6B486006F8AFD /* AnimalList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +356,7 @@
 				DEVELOPMENT_ASSET_PATHS = "SafariAnimals/Preview\\ Content";
 				DEVELOPMENT_TEAM = NNHRRF86PU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SafariAnimals/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SafariAnimals/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +376,7 @@
 				DEVELOPMENT_ASSET_PATHS = "SafariAnimals/Preview\\ Content";
 				DEVELOPMENT_TEAM = NNHRRF86PU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SafariAnimals/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SafariAnimals/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
